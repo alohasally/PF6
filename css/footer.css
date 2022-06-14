@@ -1,0 +1,83 @@
+footer{
+    height: 300px;
+    background-color: #eee;
+  
+      
+    padding-top: 40px;
+}
+
+footer .wrap{
+    padding-top: 50px;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/hk_logo.png);
+    background-repeat: no-repeat;
+    background-position-X: -17px;
+    background-position-Y: 24px;
+}
+
+
+footer ul.fnb{
+    
+    float: left;
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 64px;
+    line-height: 2.9;
+    margin-top: 57px;
+    margin-left: 20px;
+}
+
+footer ul.fnb li{
+    line-height: 2.9;
+  
+}
+
+
+
+footer ul.fnb li a{
+
+}
+
+footer address{
+  
+    float: left;
+    margin-left: 348px;
+    font-size: 13px;
+    color: #000;
+    line-height: 2.9;
+    margin-top: 57px;
+}
+
+footer select{
+
+    float: right;
+    border: none;
+    width: 200px;
+    border-top: 1px solid #fff;
+    padding-top: 12px;
+    background-color: skyblue;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 12px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+
+footer select option{
+
+}
+
+footer p.copyright{
+
+    position: absolute;
+    top: 33px;
+    color: #999;
+    font-size: 14px;
+    clear: both;
+    /*! border-top: 1px solid #777; */
+    /*! padding-top: 20px; */
+    padding-bottom: 20px;
+    left: 300px;
+}

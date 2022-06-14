@@ -1,0 +1,139 @@
+#title{
+    background-image: url(../img/sky_.jpg);
+    background-position:inherit;
+    background-size:cover;
+    height: 850px;
+  
+      
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#title .wrap{
+    width: 1200px;
+    margin: 0 auto;
+    /*! position: relative; */
+    text-align: center;
+    color: #fff;
+    /*! padding-top: 200px; */
+    
+    /*! height: 100%; */
+}
+
+#title h2{
+  font-size:50px;
+    font-weight: 300;
+}
+#title h2::before{
+    content:"";
+    display: block;
+    /*! padding: 10px; */
+    /*! font-weight: lighter; */
+    width: 1px;
+    height: 60px;
+    background-color: #FFF;
+    /*! border-right: 1px; */
+    justify-content: center;
+    /*! text-align: center; */
+    margin: 0 auto;
+    margin-top: -6px;
+    margin-bottom: 58px;
+}
+
+#title h2 strong{
+    
+    font-weight: bold;
+}
+
+#title p{
+    padding:20px;
+    line-height:1.7; 
+    margin-top: 44px;
+    letter-spacing: 1.1px;
+}
+#title button{
+    width:60px;
+    height:120px;
+    background-color: #fff;
+    border: none;
+    position: fixed;
+    top: 250px;
+    right: 0;
+    transition: all 0.3s;
+}
+
+#title button:hover{
+    background-color:skyblue;
+     
+}
+
+#title button a:hover{
+    color:#fff;
+}
+
+#title button:hover::before{
+   border-top: 30px solid skyblue;
+   border-left: 60px solid skyblue; 
+   
+}
+
+#title button:hover::after{
+   /*! border-top: 25px solid orange; */
+    
+}
+
+
+#title button::before{
+    content:"";
+    width: 0px;
+    height: 0px;
+    display: block;
+    /*! background-color: red; */
+    border-top: 30px solid white;
+    border-right: 60px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 60px solid white;
+    /*! margin-top: 80px; */
+    /*! transform: translateY(-50px); */
+    position: absolute;
+    left: 0;
+    top: 91px;
+}
+
+    
+
+#title button::after{
+    /*! content:""; */
+    width: 0px;
+    height: 0px;
+    display: block;
+    /*! background-color: red; */
+    border-top: 30px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 30px solid white;
+    border-left: 60px solid transparent;
+    /*! margin-top: 80px; */
+    /*! transform: translateY(0px); */
+    position: absolute;
+    left: 0;
+    top: 120px;
+    z-index: 5;
+}
+
+#title button a{
+    display: block;
+    /*! width:80px; */
+    /*! height:80px; */
+    color:#000;
+    /*! text-align: center; */
+    position: absolute;
+    /*! z-index: 1; */
+    transform-origin: 0 100%;
+    transform: rotate(90deg);
+    top: 30px;
+    left: 20px;
+    font-weight: 500;
+}
+
+
+ 
